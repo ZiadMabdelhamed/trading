@@ -15,7 +15,7 @@ MA = MAController.MovingAvgController()
 Fig = fig.Figure()
 
 cols =['date', 'open', 'high', 'low', 'close']
-data = DC.DataChunks(cols)
+data = DC.DataChunks(cols,DC.getDataFile())
 #get first chunk
 df = next(data)
 df = DC.prepareData(df)
