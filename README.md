@@ -6,7 +6,8 @@ create plot of the crypto pair based on period example
 - pip install plotly
 
 # config
-open config.properties file set property [file] your csv data file
+- copy your data file to Resources Directory
+- open config.properties file set property [file] your csv data file
 
 # to run project 
 run main 
