@@ -1,6 +1,4 @@
 import pandas as pd
-from Controller import MovingAvgController as mas
-from Controller import DrawPlot as dp
 
 class DataController:
     def DataChunks(self,cols):
