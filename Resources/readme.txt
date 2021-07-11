@@ -1,0 +1,3 @@
+- download  csv file for 1 m interval 
+- put file in Resources directory  
+- rename file to Binance_BTCUSDT_minute
